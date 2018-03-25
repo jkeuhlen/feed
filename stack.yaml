@@ -1,6 +1,7 @@
 resolver: lts-11.1
 packages:
 - '.'
-extra-deps: []
+extra-deps:
+- doctest-discover-0.1.0.9
 flags: {}
 extra-package-dbs: []
