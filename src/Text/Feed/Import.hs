@@ -19,7 +19,7 @@ module Text.Feed.Import
   ( parseFeedFromFile -- :: FilePath -> IO Feed
   , parseFeedString -- :: String -> Maybe Feed
   , parseFeedSource -- :: FeedSource s => s -> Maybe Feed
-  , FeedSource
+  , FeedSource(..)
           -- if you know your format, use these directly:
   , readRSS2 -- :: XML.Element -> Maybe Feed
   , readRSS1 -- :: XML.Element -> Maybe Feed
